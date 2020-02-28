@@ -10,7 +10,7 @@ const Containter = styled.div`
 `;
 
 const Cards = styled.div`
-	width: 50%;
+	width: 80%;
 	background-color: #dcdcdc;
 	border-radius: 10px;
 	padding: 15px;

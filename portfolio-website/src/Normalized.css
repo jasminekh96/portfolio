@@ -449,3 +449,87 @@ template {
 [hidden] {
 	display: none;
 }
+.container {
+	max-width: 900px;
+	width: 90%;
+	height: 100%;
+	font-family: 'Poppins';
+	margin: 0 auto;
+	text-decoration: none;
+}
+@media print {
+	.container {
+		max-height: 2000;
+	}
+}
+.header {
+	align-items: center;
+	/* background-color: #e6e6fa; */
+	border: 1px solid orange;
+	color: black;
+	padding: 20px;
+	margin-bottom: 10px;
+	font-size: 20px;
+	width: 60%;
+}
+a {
+	text-decoration: none;
+	color: black;
+	font-family: 'Poppins';
+}
+a:hover {
+	text-decoration: underline;
+}
+span {
+	padding: 10px;
+	justify-content: flex-end;
+}
+.social .item {
+	padding-top: 5px;
+}
+.social .item:first-child {
+	padding-top: 0;
+}
+.card {
+	margin-top: 10px;
+	border: solid 2px #e6e6fa;
+	padding: 20px;
+}
+.card h2 {
+	margin-top: 0;
+}
+.skills {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 95%;
+	justify-content: center;
+	/* display: grid;
+	grid-template-columns: 2fr 3fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr; */
+}
+.skills .skill {
+	background-color: #e6e6fa;
+	margin: 3px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	padding: 5px;
+}
+section {
+	padding: 0 10px 10px 10px;
+}
+
+.experienceInfo {
+	font-style: italic;
+}
+li {
+	padding: 4px;
+}
+
+.projectInfo {
+	font-style: italic;
+}
+
+.educationInfo {
+	font-style: italic;
+}
