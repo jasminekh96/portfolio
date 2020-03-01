@@ -75,7 +75,7 @@ function Resume() {
 			<div className='card'>
 				<h2>PROJECTS</h2>
 				<article class='project'>
-					<a href='https://github.com/Lambda-School-Labs/key-conservation-mobile'>
+					<a className='linkProjects' href='https://github.com/Lambda-School-Labs/key-conservation-mobile'>
 						<h4>KEY CONSERVATION</h4>
 					</a>
 					<p className='projectInfo'>Lambda School</p>
@@ -85,8 +85,8 @@ function Resume() {
 							that provides real-time updates on day-to-day campaigns.
 						</li>
 						<li>
-							Collaborated with a React team of 7 and functioned as a Frontend Web Developer using programs such as
-							React Native, Expo, and Redux.
+							Collaborated with a React team of 7 and a Android Devloper. Functioned as a Frontend Web Developer using
+							programs such as React Native, Expo, and Redux.
 						</li>
 					</ul>
 					{/* <a href='https://github.com/farmFreshProduce/frontEnd'>
@@ -104,7 +104,7 @@ function Resume() {
 							ContextAPI, and implementing all CRUD applications (create, read, update, delete).
 						</li>
 					</ul> */}
-					<a href='https://github.com/Spotify-Song-Suggester/Backend-SSS'>
+					<a className='linkProjects' href='https://github.com/Spotify-Song-Suggester/Backend-SSS'>
 						<h4>SPOTIFY SONG SUGGESTER</h4>
 					</a>
 					<p className='projectInfo'>Lambda School</p>

@@ -24,7 +24,7 @@ const Contact = () => {
 	return (
 		<Container>
 			<Image src={Picture} />
-			<header className='header'>
+			<header className='contactHeader'>
 				<h4>FULL STACK WEB DEVELOPER</h4>
 				<div className='social'>
 					<div className='item'>

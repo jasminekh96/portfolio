@@ -18,12 +18,14 @@ const Container = styled.div`
 
 function App() {
 	return (
-		<Container className='container'>
-			<Header />
-			<Route exact path='/' component={Projects} />
-			<Route exact path='/contact' component={Contact} />
-			<Route exact path='/resume' component={Resume} />
-		</Container>
+		<div className='container'>
+			<Container>
+				<Header />
+				<Route exact path='/' component={Projects} />
+				<Route exact path='/contact' component={Contact} />
+				<Route exact path='/resume' component={Resume} />
+			</Container>
+		</div>
 	);
 }
 export default App;
