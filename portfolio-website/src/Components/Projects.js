@@ -2,8 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import farmFresh from '../img/farmfresh.png';
-import farmPage from '../img/farmpage.png';
-import farmInventory from '../img/inventory.png';
 import restPassport from '../img/res-passport.png';
 import keyConMain from '../img/keyConMain.png';
 
@@ -11,7 +9,7 @@ const Containter = styled.div`
 	display: flex;
 	justify-content: center;
 	font-family: 'PT Sans', sans-serif;
-	flex-direction: row;
+	flex-direction: column;
 `;
 
 const Cards = styled.div`
@@ -22,6 +20,9 @@ const Cards = styled.div`
 	padding: 15px;
 	margin-top: 15px;
 	margin-bottom: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 `;
 
 const Title = styled.h1`
@@ -46,7 +47,13 @@ const ButtonLink = styled(Link)`
 	}
 	`;
 
-const Desc = styled.p`color: black;`;
+const Desc = styled.p`
+	color: black;
+	display: flex;
+	align-items: center;
+	font-family: 'Poppins';
+	text-align: center;
+`;
 
 const Projects = () => {
 	return (

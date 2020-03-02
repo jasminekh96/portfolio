@@ -2,28 +2,10 @@ import React from 'react';
 import Picture from '../../src/img/profile.png';
 import styled from 'styled-components';
 
-const Container = styled.div`
-	justify-content: row;
-	align-items: center;
-	width: 100%;
-	height: 100%;
-	padding-top: 20px;
-	border: 1px solid black;
-`;
-
-const Image = styled.img`
-	width: 20%;
-	height: 15%;
-	display: flex;
-	padding: 20px;
-	align-content: center;
-	border: 1px solid orange;
-	margin-right: 10px;
-`;
 const Contact = () => {
 	return (
-		<Container>
-			<Image src={Picture} />
+		<div className='contactContainer'>
+			<img className='imgContact' src={Picture} />
 			<header className='contactHeader'>
 				<h4>FULL STACK WEB DEVELOPER</h4>
 				<div className='social'>
@@ -56,7 +38,7 @@ const Contact = () => {
 					</div>
 				</div>
 			</header>
-		</Container>
+		</div>
 	);
 };
 

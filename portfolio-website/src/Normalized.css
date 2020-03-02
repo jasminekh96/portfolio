@@ -475,7 +475,6 @@ template {
 	justify-content: space-around;
 	align-items: center;
 	text-decoration: none;
-	border: 1px solid black;
 	flex-wrap: wrap;
 }
 @media only screen and (max-width: 915px) {
@@ -536,15 +535,37 @@ template {
 }
 
 /* resume section */
+.contactContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 20px;
+	text-align: center;
+	margin-top: 10px;
+	border: solid 2px #e6e6fa;
+	border-radius: 10px;
+	width: 80%;
+}
+.imgContact {
+	width: 20%;
+	height: 15%;
+	display: flex;
+	padding: 20px;
+	margin-right: 10px;
+}
 .contactHeader {
 	align-items: center;
 	/* background-color: #e6e6fa; */
-	border: 1px solid orange;
 	color: black;
 	padding: 20px;
 	margin-bottom: 10px;
 	font-size: 20px;
 	width: 60%;
+	text-align: center;
+}
+a {
+	text-decoration: none;
+	color: black;
 }
 .linkProjects {
 	text-decoration: none;
@@ -568,6 +589,7 @@ span {
 	margin-top: 10px;
 	border: solid 2px #e6e6fa;
 	padding: 20px;
+	border-radius: 10px;
 }
 .card h2 {
 	margin-top: 0;
@@ -610,12 +632,20 @@ li {
 /* project sections */
 .projectImages {
 	width: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
 }
 .projectImages:hover {
 	width: 100%;
 }
 .keyProjectImages {
 	width: 30%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
 }
 .keyProjectImages:hover {
 	width: 50%;
