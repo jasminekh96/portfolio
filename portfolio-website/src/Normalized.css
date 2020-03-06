@@ -451,7 +451,7 @@ template {
 }
 /* container */
 .container {
-	max-width: 900px;
+	max-width: 1100px;
 	width: 90%;
 	height: 100%;
 	font-family: 'Poppins';
@@ -468,9 +468,8 @@ template {
 .headerContainer {
 	border-radius: 10px;
 	height: 20vh;
-	background: #dcdcdc;
 	font-family: 'PT Sans', sans-serif;
-	color: #e05839;
+	color: #ffff;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
@@ -489,7 +488,7 @@ template {
 
 .headerTitle {
 	font-size: 2.5em;
-	color: #e05839;
+	color: #fff;
 	text-decoration: none;
 }
 /* .headerTitle:hover {
@@ -500,38 +499,41 @@ template {
 	display: flex;
 	color: white;
 	margin-left: 100px;
-	color: #e05839;
+	color: #ffff;
 	justify-content: space-around;
 }
 
 .styledLink {
 	font-size: 1.2rem;
-	color: #e05839;
+	color: #ffff;
 	text-decoration: none;
 	padding: 10px;
 	margin-bottom: 5px;
 }
 .projects:hover {
 	font-size: 1.6rem;
-	background-color: #e6e6fa;
+	background-color: #e05839;
+	color: #ffff;
 	height: 100%;
 	width: 100%;
-	border-radius: 100%;
+	border-radius: 10px;
 }
 
 .resume:hover {
 	font-size: 1.6rem;
-	background-color: #e6e6fa;
+	background-color: #e05839;
+	color: #ffff;
 	height: 100%;
 	width: 100%;
-	border-radius: 100%;
+	border-radius: 10px;
 }
 .contact:hover {
 	font-size: 1.6rem;
-	background-color: #e6e6fa;
+	background-color: #e05839;
+	color: #ffff;
 	height: 100%;
 	width: 100%;
-	border-radius: 100%;
+	border-radius: 10px;
 }
 
 /* resume section */
@@ -542,9 +544,10 @@ template {
 	padding-top: 20px;
 	text-align: center;
 	margin-top: 10px;
-	border: solid 2px #e6e6fa;
+	border: solid 2px #fff;
+	background-color: #ffff;
 	border-radius: 10px;
-	width: 80%;
+	width: 100%;
 }
 .imgContact {
 	width: 20%;
@@ -555,12 +558,11 @@ template {
 }
 .contactHeader {
 	align-items: center;
-	/* background-color: #e6e6fa; */
 	color: black;
 	padding: 20px;
 	margin-bottom: 10px;
 	font-size: 20px;
-	width: 60%;
+	width: 100%;
 	text-align: center;
 }
 a {
@@ -587,7 +589,8 @@ span {
 }
 .card {
 	margin-top: 10px;
-	border: solid 2px #e6e6fa;
+	border: solid 2px #ffff;
+	background-color: #ffff;
 	padding: 20px;
 	border-radius: 10px;
 }
@@ -605,7 +608,8 @@ span {
 	grid-template-rows: 1fr 1fr 1fr 1fr; */
 }
 .skills .skill {
-	background-color: #e6e6fa;
+	background-color: #e05839;
+	color: #ffff;
 	margin: 3px;
 	margin-bottom: 10px;
 	border-radius: 5px;

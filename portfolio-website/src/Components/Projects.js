@@ -9,13 +9,11 @@ const Containter = styled.div`
 	display: flex;
 	justify-content: center;
 	font-family: 'PT Sans', sans-serif;
-	flex-direction: column;
+	flex-direction: row;
 `;
 
 const Cards = styled.div`
-	width: 80%;
-	//background-color: #dcdcdc;
-	border: solid 2px #e6e6fa;
+	background-color: #ffff;
 	border-radius: 10px;
 	padding: 15px;
 	margin-top: 15px;
@@ -34,12 +32,13 @@ const Title = styled.h1`
 const ButtonLink = styled(Link)`
 	font-size: .8rem;
 	padding: 10px;
+	margin-bottom: 5px;
 	border: 2px solid red;
 	border-radius: 8px;
 	display: inline-block;
 	text-decoration: none;
-	background-color: white;
-	color: #e05839;
+	color: white;
+	background-color: #e05839;
 	&:hover{
 		background-color: #dcdcdc;
 		color: red;
@@ -63,7 +62,7 @@ const Projects = () => {
 					<Title>Key Conservation</Title>
 					<Desc>
 						Key Conservation is helping conservationists gain critical funding and global support through a mobile app
-						(in development) that provides real-time updates on day-to-day campaigns.The Key App will have a scrolling
+						(in development) that provides real-time updates on day-to-day campaigns. The Key App will have a scrolling
 						live feed that updates as needs from conservationists occur around the world in real-time. Supporters will
 						be transported to the front lines alongside our conservationists and be given actionable steps they can take
 						to make a real difference right then and there.
