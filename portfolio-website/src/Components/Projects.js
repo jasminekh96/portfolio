@@ -3,13 +3,16 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import farmFresh from '../img/farmfresh.png';
 import restPassport from '../img/res-passport.png';
-import keyConMain from '../img/keyConMain.png';
+import keyConMain from '../img/key-login.png';
+import keyFeed from '../img/key-feed.png';
+import keyProfile from '../img/key-profile.png';
 
 const Containter = styled.div`
 	display: flex;
 	justify-content: center;
 	font-family: 'PT Sans', sans-serif;
 	flex-direction: row;
+	width: 100%;
 `;
 
 const Cards = styled.div`
@@ -29,7 +32,7 @@ const Title = styled.h1`
 	color: black;
 `;
 
-const ButtonLink = styled(Link)`
+const ButtonLink = styled.a`
 	font-size: .8rem;
 	padding: 10px;
 	margin-bottom: 5px;
@@ -39,12 +42,12 @@ const ButtonLink = styled(Link)`
 	text-decoration: none;
 	color: white;
 	background-color: #e05839;
-	&:hover{
+	&:hover {
 		background-color: #dcdcdc;
 		color: red;
-		font-size: 1.0rem
+		font-size: 1.0rem;
 	}
-	`;
+`;
 
 const Desc = styled.p`
 	color: black;
@@ -67,10 +70,12 @@ const Projects = () => {
 						be transported to the front lines alongside our conservationists and be given actionable steps they can take
 						to make a real difference right then and there.
 					</Desc>
-					<div>
+					<div className='keyImages'>
 						<img className='keyProjectImages' src={keyConMain} alt='Login-Page for Key Conservation' />
+						<img className='keyProjectImages' src={keyFeed} alt='Login-Page for Key Conservation' />
+						<img className='keyProjectImages' src={keyProfile} alt='Login-Page for Key Conservation' />
 					</div>
-					<ButtonLink to='https://github.com/Lambda-School-Labs/key-conservation-mobile'>View Code</ButtonLink>
+					<ButtonLink href='https://github.com/Lambda-School-Labs/key-conservation-mobile'>View Code</ButtonLink>
 				</Cards>
 			</Containter>
 			<Containter>
@@ -86,8 +91,8 @@ const Projects = () => {
 						{/* <img className='farmFreshImg' src={farmPage} alt='Farmers profile page' />
 						<img className='farmFreshImg' src={farmInventory} alt='Invtentory of Farm' /> */}
 					</div>
-					<ButtonLink to='https://github.com/farmFreshProduce/frontEnd'>View Code</ButtonLink>
-					<ButtonLink to='https://farmfreshapp.netlify.com/'>View Live</ButtonLink>
+					<ButtonLink href='https://github.com/farmFreshProduce/frontEnd'>View Code</ButtonLink>
+					<ButtonLink href='https://farmfreshapp.netlify.com/'>View Live</ButtonLink>
 				</Cards>
 			</Containter>
 			<Containter>
@@ -100,10 +105,10 @@ const Projects = () => {
 					<div>
 						<img className='projectImages' src={restPassport} alt='Login-Page for Restaurant Passport' />
 					</div>
-					<ButtonLink to='https://github.com/bw-restaurant-passport-1/Front-end/tree/master/restaurant-passport'>
+					<ButtonLink href='https://github.com/bw-restaurant-passport-1/Front-end/tree/master/restaurant-passport'>
 						View Code
 					</ButtonLink>
-					<ButtonLink to='https://restaurantpassportlogin.netlify.com/'>View Live</ButtonLink>
+					<ButtonLink href='https://restaurantpassportlogin.netlify.com/'>View Live</ButtonLink>
 				</Cards>
 			</Containter>
 			<Containter>
@@ -114,7 +119,7 @@ const Projects = () => {
 						This project is meant to retrieve Spotify data about songs the user inputs/searches for, and use that data
 						to pull and display important features of the song and other songs with similar features.
 					</Desc>
-					<ButtonLink to='https://github.com/Spotify-Song-Suggester/Backend-SSS'>View Code</ButtonLink>
+					<ButtonLink href='https://github.com/Spotify-Song-Suggester/Backend-SSS'>View Code</ButtonLink>
 					{/* <ButtonLink to='https://front-end-sss.now.sh/login'>View Live</ButtonLink> */}
 				</Cards>
 			</Containter>

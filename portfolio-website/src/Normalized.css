@@ -502,6 +502,9 @@ template {
 	color: #ffff;
 	justify-content: space-around;
 }
+.items {
+	color: white;
+}
 
 .styledLink {
 	font-size: 1.2rem;
@@ -569,6 +572,7 @@ a {
 	text-decoration: none;
 	color: black;
 }
+
 .linkProjects {
 	text-decoration: none;
 	color: black;
@@ -645,12 +649,27 @@ li {
 	width: 100%;
 }
 .keyProjectImages {
-	width: 30%;
+	width: 20%;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 20px;
 }
+.keyImages {
+	display: flex;
+	flex-direction: row;
+}
+@media only screen and (max-width: 600px) {
+	.keyImages {
+		display: flex;
+		flex-direction: row;
+	}
+}
 .keyProjectImages:hover {
-	width: 50%;
+	width: 35%;
+}
+@media only screen and (max-width: 400px) {
+	.keyProjectImages:none {
+		display: none;
+	}
 }
