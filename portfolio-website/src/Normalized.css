@@ -669,7 +669,9 @@ li {
 	width: 35%;
 }
 @media only screen and (max-width: 400px) {
-	.keyProjectImages:none {
+	.keyProjectImages:hover {
 		display: none;
+		display: flex;
+		flex-direction: row;
 	}
 }
