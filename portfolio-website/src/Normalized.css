@@ -582,10 +582,13 @@ span {
 	padding: 10px;
 	justify-content: flex-end;
 }
-.social .item {
+.social .item-header {
 	padding-top: 5px;
 	font-size: 1.1rem;
 	color: white;
+}
+.item-contact {
+	color: black;
 }
 .social .item:first-child {
 	padding-top: 0;
