@@ -498,12 +498,9 @@ template {
 .headerLinks {
 	display: flex;
 	color: white;
-	margin-left: 100px;
+	/* margin-left: 100px; */
 	color: #ffff;
 	justify-content: space-around;
-}
-.items {
-	color: white;
 }
 
 .styledLink {
@@ -587,6 +584,8 @@ span {
 }
 .social .item {
 	padding-top: 5px;
+	font-size: 1.1rem;
+	color: white;
 }
 .social .item:first-child {
 	padding-top: 0;
@@ -662,7 +661,8 @@ li {
 @media only screen and (max-width: 600px) {
 	.keyImages {
 		display: flex;
-		flex-direction: row;
+		flex-direction: column;
+		width: 100%;
 	}
 }
 .keyProjectImages:hover {

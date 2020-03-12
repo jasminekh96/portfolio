@@ -58,12 +58,12 @@ const Header = () => {
 			</nav>
 			<div className='social'>
 				<div>
-					<a className='items' href='https://github.com/jasminekh96'>
+					<a className='item' href='https://github.com/jasminekh96'>
 						<i class='fab fa-github-square' />
 					</a>
 				</div>
 				<div>
-					<a className='items' href='https://www.linkedin.com/in/jasmine-kasheboon-khoury/'>
+					<a className='item' href='https://www.linkedin.com/in/jasmine-kasheboon-khoury/'>
 						<i class='fab fa-linkedin' />
 					</a>
 				</div>
