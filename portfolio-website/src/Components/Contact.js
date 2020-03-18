@@ -1,6 +1,5 @@
 import React from 'react';
 import Picture from '../../src/img/profile.png';
-import styled from 'styled-components';
 
 const Contact = () => {
 	return (

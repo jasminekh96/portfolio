@@ -458,6 +458,14 @@ template {
 	margin: 0 auto;
 	text-decoration: none;
 }
+.appCont {
+	flex-wrap: wrap;
+	max-width: 1200px;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	text-decoration: none;
+}
 @media print {
 	.container {
 		max-height: 2000;
@@ -640,6 +648,46 @@ li {
 	font-style: italic;
 }
 /* project sections */
+.projectsContainer {
+	display: flex;
+	justify-content: center;
+	font-family: 'PT Sans', sans-serif;
+	flex-direction: row;
+	width: 100%;
+}
+.projectsCard {
+	background-color: #ffff;
+	border-radius: 10px;
+	padding: 15px;
+	margin-top: 15px;
+	margin-bottom: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.buttonLink {
+	font-size: .8rem;
+	padding: 10px;
+	margin-bottom: 5px;
+	border: 2px solid red;
+	border-radius: 8px;
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	background-color: #e05839;
+}
+.buttonLink:hover {
+	background-color: #dcdcdc;
+	color: red;
+	font-size: 1.0rem;
+}
+.projectDesc {
+	color: black;
+	display: flex;
+	align-items: center;
+	font-family: 'Poppins';
+	text-align: center;
+}
 .projectImages {
 	width: 50%;
 	display: block;

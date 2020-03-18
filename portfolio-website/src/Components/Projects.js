@@ -1,129 +1,89 @@
 import React from 'react';
-import styled from 'styled-components';
-import { Link } from 'react-router-dom';
 import farmFresh from '../img/farmfresh.png';
 import restPassport from '../img/res-passport.png';
 import keyConMain from '../img/key-login.png';
 import keyFeed from '../img/key-feed.png';
 import keyProfile from '../img/key-profile.png';
 
-const Containter = styled.div`
-	display: flex;
-	justify-content: center;
-	font-family: 'PT Sans', sans-serif;
-	flex-direction: row;
-	width: 100%;
-`;
-
-const Cards = styled.div`
-	background-color: #ffff;
-	border-radius: 10px;
-	padding: 15px;
-	margin-top: 15px;
-	margin-bottom: 20px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-`;
-
-const Title = styled.h1`
-	font-size: 1.8rem;
-	//color: #e05839;
-	color: black;
-`;
-
-const ButtonLink = styled.a`
-	font-size: .8rem;
-	padding: 10px;
-	margin-bottom: 5px;
-	border: 2px solid red;
-	border-radius: 8px;
-	display: inline-block;
-	text-decoration: none;
-	color: white;
-	background-color: #e05839;
-	&:hover {
-		background-color: #dcdcdc;
-		color: red;
-		font-size: 1.0rem;
-	}
-`;
-
-const Desc = styled.p`
-	color: black;
-	display: flex;
-	align-items: center;
-	font-family: 'Poppins';
-	text-align: center;
-`;
-
 const Projects = () => {
 	return (
 		<div>
-			<Containter>
-				<Cards>
-					<Title>Key Conservation</Title>
-					<Desc>
+			<div className='projectsContainer'>
+				<div className='projectsCard'>
+					<h1 className='projectsTitle'>Key Conservation</h1>
+					<p className='projectDesc'>
 						Key Conservation is helping conservationists gain critical funding and global support through a mobile app
 						(in development) that provides real-time updates on day-to-day campaigns. The Key App will have a scrolling
 						live feed that updates as needs from conservationists occur around the world in real-time. Supporters will
 						be transported to the front lines alongside our conservationists and be given actionable steps they can take
 						to make a real difference right then and there.
-					</Desc>
+					</p>
 					<div className='keyImages'>
 						<img className='keyProjectImages' src={keyConMain} alt='Login-Page for Key Conservation' />
 						<img className='keyProjectImages' src={keyFeed} alt='Login-Page for Key Conservation' />
 						<img className='keyProjectImages' src={keyProfile} alt='Login-Page for Key Conservation' />
 					</div>
-					<ButtonLink href='https://github.com/Lambda-School-Labs/key-conservation-mobile'>View Code</ButtonLink>
-				</Cards>
-			</Containter>
-			<Containter>
-				<Cards>
-					<Title>Farm Fresh Produce</Title>
-					<Desc>
+					<a className='buttonLink' href='https://github.com/Lambda-School-Labs/key-conservation-mobile'>
+						View Code
+					</a>
+				</div>
+			</div>
+			<div className='projectsContainer'>
+				<div className='projectsCard'>
+					<h1 className='projectsTitle'>Farm Fresh Produce</h1>
+					<p className='projectDesc'>
 						The point of this app is to supply shoppers with the option to see local farms inventory and for local
 						farmers to post their inventory onto a site for locals to see what's available. These products being
 						Non-gmo, pesticide/herbicide free, and organic.
-					</Desc>
+					</p>
 					<div>
 						<img className='projectImages' src={farmFresh} alt='Login-Page for Farm Fresh Produce' />
 						{/* <img className='farmFreshImg' src={farmPage} alt='Farmers profile page' />
 						<img className='farmFreshImg' src={farmInventory} alt='Invtentory of Farm' /> */}
 					</div>
-					<ButtonLink href='https://github.com/farmFreshProduce/frontEnd'>View Code</ButtonLink>
-					<ButtonLink href='https://farmfreshapp.netlify.com/'>View Live</ButtonLink>
-				</Cards>
-			</Containter>
-			<Containter>
-				<Cards>
-					<Title>Restaurant Passport </Title>
-					<Desc>
+					<a className='buttonLink' href='https://github.com/farmFreshProduce/frontEnd'>
+						View Code
+					</a>
+					<a className='buttonLink' href='https://farmfreshapp.netlify.com/'>
+						View Live
+					</a>
+				</div>
+			</div>
+			<div className='projectsContainer'>
+				<div className='projectsCard'>
+					<h1 className='projectsTitle'>Restaurant Passport </h1>
+					<p className='projectDesc'>
 						View the restaurants you've been to, have suggestions at your fingertips for any occasion and taste, and
 						brag to your friends about all the cool eateries you've been to.
-					</Desc>
+					</p>
 					<div>
 						<img className='projectImages' src={restPassport} alt='Login-Page for Restaurant Passport' />
 					</div>
-					<ButtonLink href='https://github.com/bw-restaurant-passport-1/Front-end/tree/master/restaurant-passport'>
+					<a
+						className='buttonLink'
+						href='https://github.com/bw-restaurant-passport-1/Front-end/tree/master/restaurant-passport'>
 						View Code
-					</ButtonLink>
-					<ButtonLink href='https://restaurantpassportlogin.netlify.com/'>View Live</ButtonLink>
-				</Cards>
-			</Containter>
-			<Containter>
-				<Cards>
-					<Title> Spotify Song Suggester</Title>
-					<Desc>
+					</a>
+					<a className='buttonLink' href='https://restaurantpassportlogin.netlify.com/'>
+						View Live
+					</a>
+				</div>
+			</div>
+			<div className='projectsContainer'>
+				<div className='projectsCard'>
+					<h1 className='projectsTitle'> Spotify Song Suggester</h1>
+					<p className='projectDesc'>
 						{' '}
 						This project is meant to retrieve Spotify data about songs the user inputs/searches for, and use that data
 						to pull and display important features of the song and other songs with similar features.
-					</Desc>
-					<ButtonLink href='https://github.com/Spotify-Song-Suggester/Backend-SSS'>View Code</ButtonLink>
+					</p>
+					<a className='buttonLink' href='https://github.com/Spotify-Song-Suggester/Backend-SSS'>
+						View Code
+					</a>
 					{/* <ButtonLink to='https://front-end-sss.now.sh/login'>View Live</ButtonLink> */}
-				</Cards>
-			</Containter>
-			<Containter>
+				</div>
+			</div>
+			<div className='projectsContainer'>
 				{/* <Cards>
 					<Title>Secret Family Recipes</Title>
 					<Desc>SFR</Desc>
@@ -146,7 +106,7 @@ const Projects = () => {
 					<ButtonLink to='https://github.com/jasminekh96/dark-mode/tree/Jasmine-KasheboonKhoury'>View Code</ButtonLink>
 					<ButtonLink to='need link'>Need link</ButtonLink>
 				</Cards> */}
-			</Containter>
+			</div>
 		</div>
 	);
 };
