@@ -66,7 +66,7 @@ function Resume() {
 						<li>Delivered one-on-one feedback and code review on a weekly basis, providing debugging solutions</li>
 					</ul>
 					<h4>NON-TEACHING ADJUNCT</h4>
-					<p className='experienceInfo'>CUNY City College of NY/New York, NY/August 2018-December</p>
+					<p className='experienceInfo'>CUNY City College of NY/New York, NY/August 2018-December 2019</p>
 					<ul className='responsibilities'>
 						<li>Grading exams and essays from students of the Anthropology 101 course</li>
 					</ul>
