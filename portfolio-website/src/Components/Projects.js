@@ -17,6 +17,10 @@ const Projects = () => {
 						live feed that updates as needs from conservationists occur around the world in real-time. Supporters will
 						be transported to the front lines alongside our conservationists and be given actionable steps they can take
 						to make a real difference right then and there.
+						<p className='projectDesc'>
+							Collaborated with a React team of 7 and a Android Devloper. Functioned as a Frontend Web Developer using
+							programs such as React Native, Expo, and Redux.
+						</p>
 					</p>
 					<div className='keyImages'>
 						<img className='keyProjectImages' src={keyConMain} alt='Login-Page for Key Conservation' />
@@ -35,6 +39,10 @@ const Projects = () => {
 						The point of this app is to supply shoppers with the option to see local farms inventory and for local
 						farmers to post their inventory onto a site for locals to see what's available. These products being
 						Non-gmo, pesticide/herbicide free, and organic.
+					</p>
+					<p className='projectDesc'>
+						Collaborated with a React team of 4 and functioned as a React II Frontend Developer using React, ContextAPI,
+						and implementing all CRUD applications (create, read, update, delete).
 					</p>
 					<div>
 						<img className='projectImages' src={farmFresh} alt='Login-Page for Farm Fresh Produce' />
@@ -56,6 +64,10 @@ const Projects = () => {
 						View the restaurants you've been to, have suggestions at your fingertips for any occasion and taste, and
 						brag to your friends about all the cool eateries you've been to.
 					</p>
+					<p className='projectDesc'>
+						Collaborated with a React team of 6 and functioned as a React I Frontend Developer using React, CSS, and
+						React Hook Form.
+					</p>
 					<div>
 						<img className='projectImages' src={restPassport} alt='Login-Page for Restaurant Passport' />
 					</div>
@@ -73,9 +85,12 @@ const Projects = () => {
 				<div className='projectsCard'>
 					<h1 className='projectsTitle'> Spotify Song Suggester</h1>
 					<p className='projectDesc'>
-						{' '}
 						This project is meant to retrieve Spotify data about songs the user inputs/searches for, and use that data
 						to pull and display important features of the song and other songs with similar features.
+					</p>
+					<p className='projectDesc'>
+						Developed an API as a Backend Engineer in a cross-functional environment for the Data Science team using
+						Express, PostgresSQL, and JWT.
 					</p>
 					<a className='buttonLink' href='https://github.com/Spotify-Song-Suggester/Backend-SSS'>
 						View Code

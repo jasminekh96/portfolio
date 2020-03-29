@@ -89,7 +89,7 @@ function Resume() {
 							programs such as React Native, Expo, and Redux.
 						</li>
 					</ul>
-					{/* <a href='https://github.com/farmFreshProduce/frontEnd'>
+					<a href='https://github.com/farmFreshProduce/frontEnd'>
 						<h4>FARM FRESH PRODUCE</h4>
 					</a>
 					<p className='projectInfo'>Lambda School</p>
@@ -103,8 +103,8 @@ function Resume() {
 							Collaborated with a React team of 4 and functioned as a React II Frontend Developer using React,
 							ContextAPI, and implementing all CRUD applications (create, read, update, delete).
 						</li>
-					</ul> */}
-					<a className='linkProjects' href='https://github.com/Spotify-Song-Suggester/Backend-SSS'>
+					</ul>
+					{/* <a className='linkProjects' href='https://github.com/Spotify-Song-Suggester/Backend-SSS'>
 						<h4>SPOTIFY SONG SUGGESTER</h4>
 					</a>
 					<p className='projectInfo'>Lambda School</p>
@@ -117,7 +117,7 @@ function Resume() {
 							Developed an API as a Backend Engineer in a cross-functional environment for the Data Science team using
 							Express, PostgresSQL, and JWT.
 						</li>
-					</ul>
+					</ul> */}
 				</article>
 			</div>
 			<div className='card'>
