@@ -12,6 +12,7 @@ const Projects = () => {
 			<div className='projectsContainer'>
 				<div className='projectsCard'>
 					<h1 className='projectsTitle'>Key Conservation</h1>
+					<p className='projectStack'> React Native | Expo | Redux</p>
 					<a className='buttonLink' href='https://github.com/Lambda-School-Labs/key-conservation-mobile'>
 						View Code
 					</a>
@@ -39,6 +40,7 @@ const Projects = () => {
 			<div className='projectsContainer'>
 				<div className='projectsCard'>
 					<h1 className='projectsTitle'>Farm Fresh Produce</h1>
+					<p className='projectStack'> React | Context API | CRUD</p>
 					<a className='buttonLink' href='https://github.com/farmFreshProduce/frontEnd'>
 						View Code
 					</a>
@@ -70,6 +72,7 @@ const Projects = () => {
 			<div className='projectsContainer'>
 				<div className='projectsCard'>
 					<h1 className='projectsTitle'>Restaurant Passport </h1>
+					<p className='projectStack'> React | CSS | React Hook Form</p>
 					<a
 						className='buttonLink'
 						href='https://github.com/bw-restaurant-passport-1/Front-end/tree/master/restaurant-passport'>
@@ -102,6 +105,7 @@ const Projects = () => {
 			<div className='projectsContainer'>
 				<div className='projectsCard'>
 					<h1 className='projectsTitle'> Spotify Song Suggester</h1>
+					<p className='projectStack'> Express | PostgresSQL | JWT | Knex</p>
 					<a className='buttonLink' href='https://github.com/Spotify-Song-Suggester/Backend-SSS'>
 						View Code
 					</a>
