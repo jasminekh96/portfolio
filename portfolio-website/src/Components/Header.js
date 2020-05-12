@@ -6,7 +6,13 @@ const Header = () => {
 	return (
 		<div className='headerContainer'>
 			<Link className='headerTitle' to='/'>
-				<p>Jasmine Kasheboon Khoury</p>
+				<p>
+					Jasmine Kasheboon Khoury{' '}
+					<span className='title'>
+						{' '}
+						<br /> Full Stack Web Developer
+					</span>
+				</p>
 			</Link>
 			<nav className='headerLinks'>
 				<NavLink className='styledLink projects' to='/'>

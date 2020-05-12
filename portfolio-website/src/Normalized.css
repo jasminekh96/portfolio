@@ -502,7 +502,9 @@ template {
 /* .headerTitle:hover {
 	font-size: 3.0rem;
 } */
-
+.title {
+	font-size: 1.4rem;
+}
 .headerLinks {
 	display: flex;
 	color: white;
