@@ -18,10 +18,10 @@ const Projects = () => {
 					</a>
 					<p className='projectDesc'>
 						Key Conservation is helping conservationists gain critical funding and global support through a mobile app
-						(in development) that provides real-time updates on day-to-day campaigns. The Key App will have a scrolling
-						live feed that updates as needs from conservationists occur around the world in real-time. Supporters will
-						be transported to the front lines alongside our conservationists and be given actionable steps they can take
-						to make a real difference right then and there.
+						that provides real-time updates on day-to-day campaigns. The Key App will have a scrolling live feed that
+						updates as needs from conservationists occur around the world in real-time. Supporters will be transported
+						to the front lines alongside our conservationists and be given actionable steps they can take to make a real
+						difference right then and there.
 						<p className='projectDesc'>
 							Collaborated with a React team of 7 and functioned as a Frontend Web Developer creating a connect feature
 							allowing supporters and conservationists the ability to follow each other, as well as updating the
