@@ -119,7 +119,7 @@ const Projects = () => {
 					</p>
 					<p className='projectDesc'>
 						Developed an API as a Backend Engineer in a cross-functional environment for the Data Science team that was
-						utlized by the Frontend Team of 4. Implemented authentication services to prevent access to private
+						utilized by the Frontend Team of 4. Implemented authentication services to prevent access to private
 						endpoints and created automated unit testing throughout the application using JEST.
 					</p>
 					<div>
