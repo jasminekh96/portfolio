@@ -7,9 +7,8 @@ const Header = () => {
 		<div className='headerContainer'>
 			<Link className='headerTitle' to='/'>
 				<p>
-					Jasmine Kasheboon Khoury{' '}
+					Jasmine Kasheboon Khoury
 					<span className='title'>
-						{' '}
 						<br /> Full Stack Web Developer
 					</span>
 				</p>
@@ -20,6 +19,9 @@ const Header = () => {
 				</NavLink>
 				<NavLink className='styledLink resume' to='/resume'>
 					Resume
+				</NavLink>
+				<NavLink className='styledLink contact' to='/about'>
+					About
 				</NavLink>
 				<NavLink className='styledLink contact' to='/contact'>
 					Contact

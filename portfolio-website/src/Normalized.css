@@ -23,8 +23,11 @@ html {
    */
 
 body {
-	margin: 0;
+	/* margin: 0; */
 	background-image: url('./img/background-purple.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	/* background-position: bottom; */
 }
 
 /**
@@ -522,28 +525,31 @@ template {
 }
 .projects:hover {
 	font-size: 1.6rem;
-	background-color: #e05839;
+	text-decoration: underline;
+	/* background-color: #e05839;
 	color: #ffff;
 	height: 100%;
 	width: 100%;
-	border-radius: 10px;
+	border-radius: 10px; */
 }
 
 .resume:hover {
 	font-size: 1.6rem;
-	background-color: #e05839;
+	text-decoration: underline;
+	/* background-color: #e05839;
 	color: #ffff;
 	height: 100%;
 	width: 100%;
-	border-radius: 10px;
+	border-radius: 10px; */
 }
 .contact:hover {
 	font-size: 1.6rem;
-	background-color: #e05839;
+	text-decoration: underline;
+	/* background-color: #e05839;
 	color: #ffff;
 	height: 100%;
 	width: 100%;
-	border-radius: 10px;
+	border-radius: 10px; */
 }
 
 /* resume section */
@@ -565,6 +571,14 @@ template {
 	display: flex;
 	padding: 20px;
 	margin-right: 10px;
+	border-radius: 25px;
+}
+.imgAbout {
+	width: 95%;
+	height: 15%;
+	display: flex;
+	padding: 20px;
+	border-radius: 30px;
 }
 .contactHeader {
 	align-items: center;
@@ -579,9 +593,34 @@ a {
 	text-decoration: none;
 	color: black;
 }
-
+.aboutHeader {
+	align-items: center;
+	color: black;
+	padding: 20px;
+	margin-bottom: 10px;
+	font-size: 20px;
+	width: 100%;
+	text-align: center;
+}
+.aboutContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 20px;
+	text-align: center;
+	margin-top: 10px;
+	border: solid 2px #fff;
+	background-color: #ffff;
+	border-radius: 10px;
+	width: 100%;
+	margin-bottom: 20px;
+}
+.aboutPrgh {
+	padding: 0 20px 20px 20px;
+	font-family: 'Poppins';
+}
 .linkProjects {
-	text-decoration: none;
+	text-decoration: underline;
 	color: black;
 	font-family: 'Poppins';
 }

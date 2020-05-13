@@ -23,8 +23,9 @@ const Projects = () => {
 						be transported to the front lines alongside our conservationists and be given actionable steps they can take
 						to make a real difference right then and there.
 						<p className='projectDesc'>
-							Collaborated with a React team of 7 and a Android Devloper. Functioned as a Frontend Web Developer using
-							programs such as React Native, Expo, and Redux.
+							Collaborated with a React team of 7 and functioned as a Frontend Web Developer creating a connect feature
+							allowing supporters and conservationists the ability to follow each other, as well as updating the
+							Frontend with CSS.
 						</p>
 					</p>
 					<div className='keyImages'>
@@ -48,13 +49,14 @@ const Projects = () => {
 						View Live
 					</a>
 					<p className='projectDesc'>
-						The point of this app is to supply shoppers with the option to see local farms inventory and for local
+						Farm Fresh Produce is meant to supply shoppers with the option to see local farms inventory and for local
 						farmers to post their inventory onto a site for locals to see what's available. These products being
 						Non-GMO, pesticide/herbicide free, and organic.
 					</p>
 					<p className='projectDesc'>
 						Collaborated with a React team of 4 and functioned as a React II Frontend Developer using React, ContextAPI,
-						and implementing all CRUD applications (create, read, update, delete).
+						and implementing all CRUD endpoints (create, read, update, delete) that were recieved from the server side.
+						As well as implementing client-side authentication and authorization routes.
 					</p>
 					<div>
 						<img className='projectImages' src={farmFresh} alt='Login-Page for Farm Fresh Produce' />
@@ -82,12 +84,14 @@ const Projects = () => {
 						View Live
 					</a>
 					<p className='projectDesc'>
-						View the restaurants you've been to, have suggestions at your fingertips for any occasion and taste, and
-						brag to your friends about all the cool eateries you've been to.
+						Restaurant Passport allows a user to view the restaurants they have been to, have suggestions at their
+						fingertips for any occasion and taste, as well as braging to their friends about all the cool eateries
+						they've been to.
 					</p>
 					<p className='projectDesc'>
 						Collaborated with a React team of 6 and functioned as a React I Frontend Developer using React, CSS, and
-						React Hook Form.
+						React Hook Form. Created forms requiring validation, designed the user interface using CSS, and implemented
+						a DarkMode feature.
 					</p>
 					<div>
 						<img className='projectImages' src={restPassport} alt='Login-Page for Restaurant Passport' />
@@ -110,12 +114,13 @@ const Projects = () => {
 						View Code
 					</a>
 					<p className='projectDesc'>
-						This project is meant to retrieve Spotify data about songs the user inputs/searches for, and use that data
-						to pull and display important features of the song and other songs with similar features.
+						Spotify Song Suggester is meant to retrieve Spotify data about songs the user inputs/searches for, and use
+						that data to pull and display important features of the song and other songs with similar features.
 					</p>
 					<p className='projectDesc'>
-						Developed an API as a Backend Engineer in a cross-functional environment for the Data Science team using
-						Express, PostgresSQL, and JWT.
+						Developed an API as a Backend Engineer in a cross-functional environment for the Data Science team that was
+						utlized by the Frontend Team of 4. Implemented authentication services to prevent access to private
+						endpoints and created automated unit testing throughout the application using JEST.
 					</p>
 					<div>
 						<img className='projectImages' src={spotifySong} alt='Spotify icon with person listening to music' />
