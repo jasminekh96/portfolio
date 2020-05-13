@@ -85,7 +85,7 @@ const Projects = () => {
 					</a>
 					<p className='projectDesc'>
 						Restaurant Passport allows a user to view the restaurants they have been to, have suggestions at their
-						fingertips for any occasion and taste, as well as braging to their friends about all the cool eateries
+						fingertips for any occasion and taste, as well as bragging to their friends about all the cool eateries
 						they've been to.
 					</p>
 					<p className='projectDesc'>
