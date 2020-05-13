@@ -4,7 +4,6 @@ import oliveTree from '../img/olive.jpg';
 const About = () => {
 	return (
 		<div className='aboutContainer'>
-			<img className='imgAbout' src={oliveTree} alt='Olive Tree branches' />
 			<header className='aboutHeader'>
 				<p className='aboutPrgh'>
 					From a Bachelor's Degree in Anthropology to a Full Stack Web Developer at Lambda School, I design and
@@ -17,6 +16,7 @@ const About = () => {
 					Arabic, and our culture.
 				</p>
 			</header>
+			<img className='imgAbout' src={oliveTree} alt='Olive Tree branches' />
 		</div>
 	);
 };

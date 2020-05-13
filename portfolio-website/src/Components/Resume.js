@@ -62,8 +62,8 @@ function Resume() {
 					<p className='projectInfo'>React Native | Expo | Redux | CSS </p>
 					<ul className='info'>
 						<li>
-							Key Conservation is helping conservationists gain critical funding and global support through a mobile app
-							that provides real-time updates on day-to-day campaigns.
+							Key Conservation is a mobile application that helps conservationists gain critical funding and global
+							support through a mobile app that provides real-time updates on day-to-day campaigns.
 						</li>
 						<li>
 							Collaborated with a React team of 7 and functioned as a Frontend Web Developer creating a connect feature
@@ -92,12 +92,12 @@ function Resume() {
 					<p className='projectInfo'> Express | PostgresSQL | JEST | Insomnia | Knex </p>
 					<ul className='info'>
 						<li>
-							Spotify Song Suggester is meant to retrieve Spotify data about songs the user inputs/searches for, and use
-							that data to pull and display important features of the song and other songs with similar features.
+							Spotify Song Suggester is a web application that retrieves Spotify data about songs the users input/search
+							for and displays important features of the song and other songs with similar features.
 						</li>
 						<li>
 							Developed an API as a Backend Engineer in a cross-functional environment for the Data Science team that
-							was utilized by the Frontend Team of 4.
+							was utilized by the Frontend Team.
 						</li>
 					</ul>
 				</article>
@@ -105,19 +105,22 @@ function Resume() {
 			<div className='card'>
 				<h2>EXPERIENCE</h2>
 				<article class='experience'>
-					<h4>TEAM LEAD</h4>
+					<h4>TEAM LEAD / TEACHING ASSISTANT</h4>
 					<p className='experienceInfo'>Lambda School/Remote/October 2019-Present</p>
 					<ul className='responsibilities'>
 						<li>
 							Served as teaching assistant, leading a team of 10+ students in daily code challenges in JS and React
 						</li>
-						<li>Provided daily feedback and issue resolution of curriculum through about 100 slack messages weekly.</li>
-						<li>Delivered one-on-one feedback and code review on a weekly basis, providing debugging solutions.</li>
+						<li>
+							Fielded 100+ Slack messages from students weekly in order to provide daily feedback and issue resolution
+							of curriculum; utilized Zoom to explain concepts in more depth and provide live code reviews.
+						</li>
+						{/* <li>Delivered one-on-one feedback and code review on a weekly basis, providing debugging solutions.</li> */}
 					</ul>
 					<h4>NON-TEACHING ADJUNCT</h4>
 					<p className='experienceInfo'>CUNY City College of NY/New York, NY/August 2018-December 2019</p>
 					<ul className='responsibilities'>
-						<li>Grading 100 midterm and final exams from 150 students of the Anthropology 101 course.</li>
+						<li>Grading midterm and final exams from 150 students of the Anthropology 101 course.</li>
 					</ul>
 				</article>
 			</div>

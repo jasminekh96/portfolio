@@ -49,13 +49,13 @@ const Projects = () => {
 						View Live
 					</a>
 					<p className='projectDesc'>
-						Farm Fresh Produce is meant to supply shoppers with the option to see local farms inventory and for local
-						farmers to post their inventory onto a site for locals to see what's available. These products being
-						Non-GMO, pesticide/herbicide free, and organic.
+						Farm Fresh Produce is a web application to supply shoppers with the option to see local farms inventory and
+						for local farmers to post their inventory for shoppers. These products being Non-GMO, pesticide/herbicide
+						free, and organic.
 					</p>
 					<p className='projectDesc'>
 						Collaborated with a React team of 4 and functioned as a React II Frontend Developer using React, ContextAPI,
-						and implementing all CRUD endpoints (create, read, update, delete) that were recieved from the server side.
+						and implementing all CRUD endpoints (create, read, update, delete) that were received from the server side.
 						As well as implementing client-side authentication and authorization routes.
 					</p>
 					<div>
@@ -84,9 +84,9 @@ const Projects = () => {
 						View Live
 					</a>
 					<p className='projectDesc'>
-						Restaurant Passport allows a user to view the restaurants they have been to, have suggestions at their
-						fingertips for any occasion and taste, as well as bragging to their friends about all the cool eateries
-						they've been to.
+						Restaurant Passport is a web application that allows users to view the restaurants they have been to, view
+						suggestions for any occasion and taste, as well as bragging to their friends about all the cool eateries
+						they have been to.
 					</p>
 					<p className='projectDesc'>
 						Collaborated with a React team of 6 and functioned as a React I Frontend Developer using React, CSS, and
@@ -114,13 +114,13 @@ const Projects = () => {
 						View Code
 					</a>
 					<p className='projectDesc'>
-						Spotify Song Suggester is meant to retrieve Spotify data about songs the user inputs/searches for, and use
-						that data to pull and display important features of the song and other songs with similar features.
+						Spotify Song Suggester is a web application that retrieves Spotify data about songs the users input/search
+						for and displays important features of the song and other songs with similar features.
 					</p>
 					<p className='projectDesc'>
 						Developed an API as a Backend Engineer in a cross-functional environment for the Data Science team that was
-						utilized by the Frontend Team of 4. Implemented authentication services to prevent access to private
-						endpoints and created automated unit testing throughout the application using JEST.
+						utilized by the Frontend Team. Implemented authentication services to prevent access to private endpoints
+						and created automated unit testing throughout the application using JEST.
 					</p>
 					<div>
 						<img className='projectImages' src={spotifySong} alt='Spotify icon with person listening to music' />

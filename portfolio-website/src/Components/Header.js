@@ -15,7 +15,7 @@ const Header = () => {
 			</Link>
 			<nav className='headerLinks'>
 				<NavLink className='styledLink projects' to='/'>
-					Projects
+					Home
 				</NavLink>
 				<NavLink className='styledLink resume' to='/resume'>
 					Resume
