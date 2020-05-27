@@ -62,8 +62,8 @@ function Resume() {
 					<p className='projectInfo'>React Native | Expo | Redux | CSS </p>
 					<ul className='info'>
 						<li>
-							Key Conservation is a mobile application that helps conservationists gain critical funding and global
-							support through a mobile app that provides real-time updates on day-to-day campaigns.
+							Key Conservation is a react native application that helps conservationists gain critical funding and
+							global support through a mobile app that provides real-time updates on day-to-day campaigns.
 						</li>
 						<li>
 							Collaborated with a React team of 7 and functioned as a Frontend Web Developer creating a connect feature
