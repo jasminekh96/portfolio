@@ -4,7 +4,7 @@ import Picture from '../../src/img/profile.png';
 const Contact = () => {
 	return (
 		<div className='contactContainer'>
-			<img className='imgContact' src={Picture} alt='picture of Jasmine' />
+			<img className='imgContact' src={Picture} alt='' />
 			<header className='contactHeader'>
 				<h4>FULL STACK WEB DEVELOPER</h4>
 				<div className='social'>
