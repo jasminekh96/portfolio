@@ -128,7 +128,7 @@ function Resume() {
 				<h2>EDUCATION</h2>
 				<article class='education'>
 					<h4>LAMBDA SCHOOL</h4>
-					<p className='educationInfo'>Full Stack Web Development/Remote/September 2019-May 2020</p>
+					<p className='educationInfo'>Full Stack Web Development/Remote/Endorsed May 2020</p>
 					<h4>CUNY City College of New York</h4>
 					<p className='educationInfo'>B.A Anthropology/New York, NY/May 2018</p>
 				</article>
